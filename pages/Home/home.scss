@@ -1,0 +1,29 @@
+@import '../../assets/style/blocks';
+@import './header';
+@import './hero';
+@import './chance';
+@import './survey';
+@import './service';
+@import './benefits';
+@import './tarifs';
+@import './client';
+@import './feedback';
+@import './footer';
+
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
